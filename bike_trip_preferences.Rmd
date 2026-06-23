@@ -57,7 +57,7 @@ all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HQ QR" | all_trips$
 
 ## Plan
 
-- <span style="color: #F78181">Business task</span>
+- <span style="color: #EAF2FF">Business task</span>
 - <span style="color: #F7BE81;">Description of the data</span>
 - <span style="color: #D7DF01;">Data preparation</span>
 - <span style="color: #9FF781;">Analysis</span>
