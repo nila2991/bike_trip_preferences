@@ -34,3 +34,5 @@ Historical Cyclistic trip data (~5 million trips over one year).
 
 [PDF version](https://nila2991.github.io/bike_trip_preferences/pdf-presentation.html)
 
+[Slides](https://nila2991.github.io/bike_trip_preferences/bike_trip_preferences.Rmd)
+
