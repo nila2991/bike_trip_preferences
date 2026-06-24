@@ -4415,7 +4415,7 @@ ul.task-list{list-style: none;}
 <slide class=""><hgroup><h2>Plan</h2></hgroup><article  id="plan">
 
 <ul>
-<li><span style="color: #EAF2FF">
+<li><span style="background: #EAF2FF">
 Business task</span></li>
 <li><span style="color: #EAFBF7;">
 Description of the data</span></li>
@@ -4429,11 +4429,11 @@ Key findings</span></li>
 Recommendations</span></li>
 </ul>
 
-</article></slide><slide class="segue nobackground level1 fill" style="background: #EAF2FF;"><hgroup class = 'auto-fadein'><h2><span style="color:white">
+</article></slide><slide class="segue nobackground level1 fill" style="background: #EAF2FF;"><hgroup class = 'auto-fadein'><h2><span style="color:black">
 Business task</span> <br><br><br> <span style="color:black">
 How do annual members and casual riders use Cyclistic bikes differently?</span></h2></hgroup><article  id="business-task-how-do-annual-members-and-casual-riders-use-cyclistic-bikes-differently">
 
-</article></slide><slide class="fill nobackground" style="background: #EAFBF7;"><hgroup><h2><span style="color:white">
+</article></slide><slide class="fill nobackground" style="background: #EAFBF7;"><hgroup><h2><span style="color:black">
 Description of the data</span></h2></hgroup><article  id="description-of-the-data">
 
 <p><span style="color:black">
@@ -4451,13 +4451,13 @@ I used Cyclistic’s historical trip data for the last 12 months. After I combin
 <li>member_casual       - type of users</li>
 </ul>
 
-</article></slide><slide class="fill nobackground" style="background: #EEF8EA;"><hgroup><h2><span style="color:white">
+</article></slide><slide class="fill nobackground" style="background: #EEF8EA;"><hgroup><h2><span style="color:black">
 Data preparation</span></h2></hgroup><article  id="data-preparation">
 
 <p><span style="color:black">
 The most important for me was to figure out what’s the difference in trips between membership holders and casual users.<br><br>First of all, I checked that there are only two types of membership (member or casual), as it is supposed to be.<br><br>Then I split the time data into several columns - such as day, month, and year - that provide more opportunities to aggregate the data.</span></p>
 
-</article></slide><slide class="fill nobackground" style="background: #FAF6E9;"><hgroup><h2><span style="color:white">
+</article></slide><slide class="fill nobackground" style="background: #FAF6E9;"><hgroup><h2><span style="color:black">
 Some calculations</span></h2></hgroup><article  id="some-calculations">
 
 <p><span style="color:black">
@@ -4501,13 +4501,13 @@ Max and Min</span></h2></hgroup><article  id="max-and-min">
 ## 1                     casual                            0
 ## 2                     member                            0</pre>
 
-</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:white">
+</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:black">
 Analysis</span></h2></hgroup><article  id="analysis">
 
 <p><span style="color:black">
 Let’s prepare a small dataset for further analysis.<br><br>We will use information about the number of rides and average duration of trips per day of the week, grouped by our 2 categories: membership holders and casual users.<br><br>Let’s have a look at our new dataset.</span></p>
 
-</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:white">
+</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:black">
 Data subset</span></h2></hgroup><article  id="data-subset">
 
 <div data-pagedtable="false">
@@ -4537,21 +4537,20 @@ Data subset</span></h2></hgroup><article  id="data-subset">
 
 <p>But on Saturday-Sunday casual customers spend much more time (twice more) on their trips.</p>
 
-</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:white">
+</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:black">
 New data subset</span></h2></hgroup><article  id="new-data-subset">
 
 <p><span style="color:black">
 Let’s prepare a new dataset.<br><br>We will also use information about the number of rides and average duration of trips, but this time we want to analyze changes during the year, grouped by our 2 categories: membership holders and casual users.<br><br>Let’s have a look at our new dataset.</span></p>
 
-</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:white">
-Data subset (for casual users)</span></h2></hgroup><article  id="data-subset-for-casual-users">
+</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:black">
 
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":["member_casual"],"name":[1],"type":["chr"],"align":["left"]},{"label":["month"],"name":[2],"type":["chr"],"align":["left"]},{"label":["number_of_rides"],"name":[3],"type":["int"],"align":["right"]},{"label":["average_duration"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"casual","2":"01","3":"29621","4":"14.87888"},{"1":"casual","2":"02","3":"32776","4":"17.67230"},{"1":"casual","2":"03","3":"46792","4":"16.71918"},{"1":"casual","2":"04","3":"110537","4":"22.62086"},{"1":"casual","2":"05","3":"177037","4":"24.52475"},{"1":"casual","2":"06","3":"219803","4":"24.07359"},{"1":"casual","2":"07","3":"311670","4":"25.09333"},{"1":"casual","2":"08","3":"270089","4":"23.28440"},{"1":"casual","2":"09","3":"220913","4":"21.80400"},{"1":"casual","2":"10","3":"151324","4":"20.46782"},{"1":"casual","2":"11","3":"73536","4":"17.24603"},{"1":"casual","2":"12","3":"31505","4":"14.84043"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[25],"max":[25]},"pages":{}}}
   </script></div>
 
-</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:white">
+</article></slide><slide class="fill nobackground" style="background: #FFF8E8;"><hgroup><h2><span style="color:black">
 Data subset (for membership holders)</span></h2></hgroup><article  id="data-subset-for-membership-holders">
 
 <div data-pagedtable="false">
@@ -4613,7 +4612,7 @@ I think it will be a great strategy to prepare a special membership option for o
 <p><span style="color: black;">
 And returning to our year statistics, we can conclude, that the half-year membership (for the warm months: April-October) also would be a great decision.</span></p>
 
-</article></slide><slide class="segue nobackground level1 fill" style="background: #F4EEFF;"><hgroup class = 'auto-fadein'><h2><span style="color:white">
+</article></slide><slide class="segue nobackground level1 fill" style="background: #F4EEFF;"><hgroup class = 'auto-fadein'><h2><span style="color:black">
 Thank you for your time!</span></h2></hgroup><article  id="thank-you-for-your-time"></article></slide>
 
 
