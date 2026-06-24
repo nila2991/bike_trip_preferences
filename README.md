@@ -30,8 +30,8 @@ Historical Cyclistic trip data (~5 million trips over one year).
 
 ## Project Files
 
-[Presentation](https://nila2991.github.io/bike_trip_preferences/index.html)
+[Presentation](https://nila2991.github.io/bike_trip_preferences/index.html){:target="_blank"}
 
-[PDF version](https://nila2991.github.io/bike_trip_preferences/pdf-presentation.html)
+[PDF version](https://nila2991.github.io/bike_trip_preferences/pdf-presentation.html){:target="_blank"}
 
 
